@@ -8,7 +8,7 @@ cout<<"Enter your first and  digit :";
 cin>>a;
 cout<<"Enter your 2nd digit :";
 cin>>b;
-cout<<"Enter your operation(+,-,*,/) :";
+cout<<"Enter your operation(+,-,*,/,%) :";
 cin>>choice;
 if(choice=='+'){
     double sum=a+b;
@@ -25,6 +25,11 @@ else  if(choice=='*'){
     cout<<"result is :"<<mul<<endl;
 }
 
+else  if(choice=='%'){
+
+    double m=a%b;
+    cout<<"result is :"<<m<<endl;
+}
 else if(choice=='/'){
     if(b != 0){
     double div=(double)a/b;
