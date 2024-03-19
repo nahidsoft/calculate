@@ -21,13 +21,13 @@ else if(choice=='-'){
 }
 else  if(choice=='*'){
 
-    double mul=a*b;
+    double mul= a*b;
     cout<<"result is :"<<mul<<endl;
 }
 
 else  if(choice=='%'){
 
-    double m=a%b;
+    double m=(int)a % (int)b;
     cout<<"result is :"<<m<<endl;
 }
 else if(choice=='/'){
