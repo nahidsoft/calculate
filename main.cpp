@@ -10,7 +10,7 @@ cout<<"Enter your 2nd digit :";
 cin>>b;
 cout<<"Enter your operation(+,-,*,/,%) :";
 cin>>choice;
-if(choice=='+'){
+if(choice=='+'){ //sumetion
     double sum=a+b;
     cout<<"result is :"<<sum<<endl;
 }
